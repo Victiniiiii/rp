@@ -3,7 +3,7 @@ package rpc
 import (
 	"time"
 
-	"github.com/fawni/rp/ipc"
+	"github.com/Victiniiiii/rp/ipc"
 )
 
 type Handshake struct {

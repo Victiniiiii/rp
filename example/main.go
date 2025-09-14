@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/fawni/rp"
-	"github.com/fawni/rp/rpc"
+	"github.com/Victiniiiii/rp"
+	"github.com/Victiniiiii/rp/rpc"
 )
 
 func main() {

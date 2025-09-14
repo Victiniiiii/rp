@@ -1,5 +1,5 @@
-module github.com/fawni/rp
+module github.com/Victiniiiii/rp
 
-go 1.19
+go 1.24
 
 require gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
