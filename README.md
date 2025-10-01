@@ -1,23 +1,18 @@
-# rp [![Build Status](https://img.shields.io/github/actions/workflow/status/fawni/rp/build.yml?logo=github&branch=master)](https://github.com/fawni/rp/actions)
+# rp 
 
-
-An implementation of Discord's rich presence for Linux, MacOS and Windows in Go. Fork of [hugolgst/rich-go](https://github.com/hugolgst/rich-go).
-
-## Disclaimer
-
-This fork is not meant to be a replacement or a production-ready library. The sole purpose of this fork is opinionated changes to suit my own workflow with no gurantee for stablility.
+An implementation of Discord's rich presence for Linux, MacOS and Windows in Go. Fork of [fawni/rp](https://github.com/fawni/rp). Modified for music player rich presence builds.
 
 ## Installation
 
-Install `github.com/fawni/rp`:
+Install `https://github.com/Victiniiiii/rp`:
 
 ```sh
-$ go get -u github.com/fawni/rp
+$ go get -u https://github.com/Victiniiiii/rp
 ```
 
 ## Usage
 
-create a new client
+Create a new client
 
 ```go
 c, err := rp.NewClient("DISCORD_APP_ID")
@@ -26,7 +21,7 @@ if err != nil {
 }
 ```
 
-set the rich presence activity
+Set the rich presence activity
 
 ```go
 if err := c.SetActivity(&rpc.Activity{
@@ -41,7 +36,7 @@ if err := c.SetActivity(&rpc.Activity{
 }
 ```
 
-more details in the [example](example/main.go)
+More details in the [example](example/main.go)
 
 ## License
 
